@@ -13,6 +13,24 @@ body {
     display: none;
 }
 
+.use_other_device_screen{
+    background-image: url('./main_page_pics/background_pic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 12;
+    margin: -30px -20px;
+    
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
 h1 {
     font-family: "Spectral", serif;
     font-size: 2vw;
@@ -188,6 +206,11 @@ p {
         font-size: 2vw;
     }
 
+    .text_in_block{
+        font-size: 2vw;
+        width: 100%;
+    }
+
     .txt_question_block{
         width: 60vw;
     }
@@ -214,6 +237,11 @@ p {
         font-size: 2vw;
     }
 
+    .text_in_block{
+        font-size: 2vw;
+        width: 100%;
+    }
+
     .txt_question_block{
         width: 60vw;
     }
@@ -224,6 +252,7 @@ p {
 
     .issue_covers_block {
         padding-top: 45vw;
+        flex-wrap: wrap;
     }
 
     .prosess_block_elements img {
@@ -236,6 +265,11 @@ p {
 }
 
 @media (max-width: 500px) {
+
+    .use_other_device_screen{
+        display: flex
+    }
+/*     
     p{
         font-size: 3vw;
     }
@@ -246,5 +280,5 @@ p {
 
     .issue_covers_block {
         padding-top: 75vw;
-    }
+    } */
 }
