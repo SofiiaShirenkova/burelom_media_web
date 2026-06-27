@@ -221,7 +221,7 @@ p {
 
 .issue_covers_block a:hover img {
     box-shadow: 
-        0 0 20px rgba(255, 255, 255, 0.399);
+        0 0 10px rgba(255, 255, 255, 0.711);
     transition: box-shadow 0.3s ease-in-out;
 }
 
@@ -258,7 +258,7 @@ p {
 
 .experiment_block_elements a:hover img {
     box-shadow: 
-        0 0 20px rgba(255, 255, 255, 0.399);
+        0 0 10px rgba(255, 255, 255, 0.711);
     transition: box-shadow 0.3s ease-in-out;
 }
 
