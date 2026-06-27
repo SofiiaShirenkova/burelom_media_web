@@ -53,6 +53,10 @@ p {
     padding: 5px 0px 5px 0px;
 }
 
+.inner_text_links{
+    color: white;
+}
+
 
 .header {
     position: fixed;
@@ -146,6 +150,11 @@ p {
     mix-blend-mode: screen;
 }
 
+.to_main_page_icon_block img{
+    width: 50px;
+    height: 50px;
+}
+
 .prosess {
     padding-top: 13vw;
     z-index: 9;
@@ -197,6 +206,62 @@ p {
     width: 80%;
 }
 
+.issue_covers_block a {
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+.issue_covers_block img {
+    width: 300px;
+}
+
+.issue_covers_block a img {
+    transition: box-shadow 0.3s ease-in-out;  
+}
+
+.issue_covers_block a:hover img {
+    box-shadow: 
+        0 0 20px rgba(255, 255, 255, 0.399);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.experiment_block_elements {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    width: 70vw;
+
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.experiment_block_elements a {
+    display: block;
+    flex: 0 0 calc(35% - 10px);
+}
+
+.experiment_block_elements img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* .experiment_block_elements img {
+    width: 35%;
+    height: auto;
+    display: block;
+} */
+
+.experiment_block_elements a img {
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.experiment_block_elements a:hover img {
+    box-shadow: 
+        0 0 20px rgba(255, 255, 255, 0.399);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
 @media (max-width: 900px) {
     h1{
         font-size: 3vw;
@@ -226,6 +291,16 @@ p {
     .prosess_block_elements img {
         width: 80%;
     }
+
+    .experiment_block_elements a {
+        display: block;
+        flex: 0 0 calc(80% - 10px);
+    }  
+
+    .experiment_block_elements img {
+        width: 80%;
+    }
+
 }
 
 @media (max-width: 600px) {
